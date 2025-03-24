@@ -45,7 +45,7 @@ commit;
 SELECT * FROM table_21_students;
 
 -------Show only student names and genders.
-SELECT 'manoj yadav', 'm' FROM table_21_students;
+SELECT student_name, gender FROM table_21_students;
 
 -------List students born after Jan 1, 2002.
 SELECT
